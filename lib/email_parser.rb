@@ -12,7 +12,7 @@ class EmailParser
 
   def parse
     binding.pry
-    emails.gsub(",", " ")
+    emails.gsub(",", " ").split.uniq
 
     # emails.split.map do |email|
     #   email.split(',')
