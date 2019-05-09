@@ -11,7 +11,7 @@ class EmailParser
   end
 
   def parse
-    binding.pry
+
     emails.gsub(",", " ").split.uniq
 
     # emails.split.map do |email|
